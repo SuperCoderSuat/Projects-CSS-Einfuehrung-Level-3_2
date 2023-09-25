@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Roboto-Rg";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto-Rg";
+}
+
+body {
+    min-width: 1440px;
+    background-color: #CCCCCC;
+}
+
+nav {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #659D89;
+    font-size: 14px;
+}
+
+.section-header {
+    width: 100%;
+    height: 700px;
+    padding: 140px 100px 245px 100px;
+}
+
+.section-main {
+    padding-bottom: 50px;
+}
+
+.section-main h2 {
+    padding-bottom: 15px;
+}
+
+.section-below {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.headline {
+    width: 61%;
+    font-size: 50px;
+}
+
+.headline-main {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #659D89;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.pt80 {
+    padding-top: 80px;
+}
+
+.pt100 {
+    padding-top: 100px;
+    display: inline-block;
+}
+
+.pl25 {
+    padding-left: 25px;
+}
+
+.pl100 {
+    padding-left: 100px;
+}
+
+.pb180 {
+    padding-bottom: 180px;
+}
+
+.socialmedia {
+    text-align: right;
+    display: block;
+    padding-top: 100px;
+}
+
+article {
+    text-align: center;
+}
+
+article:nth-last-of-type(2) img, article:nth-last-of-type(1) img  {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.section-main article:nth-of-type(1) {
+    padding-bottom: 50px;
+}
+
+.section-below article {
+    padding-bottom: 100px;
+}
+
+/* .section-below article {
+    padding: 80px 80px 180px 80px;
+} */
+
+.section-below article img {
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.section-below article:nth-of-type(1), .section-below article:nth-of-type(3) {
+    text-align: left;
+}
+
+.section-below article:nth-of-type(2), .section-below article:nth-of-type(4) {
+    text-align: right;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+}
+
+figure h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+figure h2, figure p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    width: 100%;
+    height: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.section-below {
+    padding-bottom: 180px;
+}
+
+.gap80 {
+    height: 80px;
+}
